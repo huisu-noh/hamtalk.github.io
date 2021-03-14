@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px 20px;
+    color: var(--middle-color);
+}
+
+.header__service {
+    display: flex;
+}
+
+.header__service h5 {
+    margin-right: 10px;
+}
+
+.header__icon {
+    display: flex;
+}
+
+.header__icon h5,
+.header__icon i {
+    margin: 0 5px;
+}
+
+

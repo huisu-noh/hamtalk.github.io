@@ -2,6 +2,7 @@
 @import "same.css";
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 @import "index.css";
+@import "friends.css";
 
 
 * {
@@ -10,11 +11,29 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    background: #feb96c;
+    background: url("img/back.PNG") center repeat;
+    
 }
 
 :root {
     --big-color: rgb(0,0,0, 1);
     --middle-color: rgb(0,0,0, 0.8);
     --small-color: grey;
+    --line-color: rgba(246, 160, 0, 0.959);
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h5 {
+   font-size: 14px;
+   font-weight: 500;
+   color: var(--small-color);  
 }

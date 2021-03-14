@@ -1,0 +1,26 @@
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.display h4 {
+    padding: 0 20px;
+    color: var(--small-color);
+}
+
+.display i {
+    color: var(--small-color);
+}
+
+.channel {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.channel h5 {
+    color: black;
+    font-weight: 700;
+}

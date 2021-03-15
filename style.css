@@ -41,3 +41,25 @@ h5 {
    font-weight: 500;
    color: var(--small-color);  
 }
+
+@media screen and (max-width: 599px) {
+    #toobig {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #toobig {
+      background-color: blueviolet;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: cornsilk;
+      font-size: 70px;
+      height: 100vh;
+      width: 100vw;
+      position: absolute;
+      top:0
+    }
+  }
+

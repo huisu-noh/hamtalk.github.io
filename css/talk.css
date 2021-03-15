@@ -39,9 +39,38 @@
     margin-bottom: 10px;
 }
 
+@keyframes fedeIn {
+    from {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes fedeOut {
+    from {
+        transform: translateX(10px);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
 .message__text {
     display: flex;
     align-items: flex-end;
+    animation: fedeIn 1s linear ;
+    animation-delay: 0s;
+}
+
+.message__text__me {
+    animation: fedeOut 1s linear ;
+    animation-delay: 0s;
 }
 
 .message__bubble {

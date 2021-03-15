@@ -56,7 +56,21 @@ header {
     padding-top: 2px;
     position: absolute;
     right: -10px;
-    top: -5px
+    top: -5px;
+    animation: alranAnimation 2s ease-in-out infinite;
+    
+}
+
+@keyframes alranAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-6px) rotateY(180deg);
+    }
+    100%{
+        transform: none;
+    }
 }
 
 .point {

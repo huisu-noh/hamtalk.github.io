@@ -1,11 +1,12 @@
 @import "reset.css";
-@import "same.css";
+@import "css/same.css";
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 @import "index.css";
-@import "friends.css";
-@import "setting.css";
-@import "talklist.css";
-@import "talk.css";
+@import "css/friends.css";
+@import "css/setting.css";
+@import "css/talklist.css";
+@import "css/talk.css";
+@import "css/search.css";
 
 * {
     box-sizing: border-box;

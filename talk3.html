@@ -21,31 +21,103 @@
         <i class="fas fa-bolt"></i>
       </div>
     </header>
-    <div class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a href="friend.html">
-            <i class="far fa-user fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <div class="alram">7</div>
-          <a href="talklist.html">
-            <i class="fas fa-comment fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a href="search.html">
-            <i class="fas fa-search fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a href="profile.html">
-            <i class="fas fa-ellipsis-h fa-2x"></i>
-          </a>
-        </li>
-      </ul>
+    <div class="bar">
+      <div class="bar__icon">
+        <ul>
+          <li>
+            <a href="talklist.html">
+              <i class="fas fa-chevron-left"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <h3>Snoozer</h3>
+      <div class="bar__icon">
+        <ul>
+          <li><i class="fas fa-search"></i></li>
+          <li><i class="fas fa-bars"></i></li>
+        </ul>
+      </div>
     </div>
+    <main class="chats__main">
+      <div class="chats__timeset">
+        <h5>Friday, March 12, 2021</h5>
+      </div>
+
+      <div class="chats-message chats-message__me">
+        <div class="chats-message__content">
+          <div class="message__text">
+            <span class="message__time">10:40</span>
+            <span class="message__bubble">Hey!!! What are you doing?</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chats-message">
+        <img src="img/zzz.PNG" alt="zzz" />
+        <div class="chats-message__content">
+          <span class="message__author">Snoozer</span>
+          <div class="message__text">
+            <span class="message__bubble">ZZZzzzz....</span>
+            <span class="message__time">10:50</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chats-message chats-message__me">
+        <div class="chats-message__content">
+          <div class="message__text">
+            <span class="message__time">10:55</span>
+            <span class="message__bubble">I have to get up and play!!!</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chats-message">
+        <img src="img/zzz.PNG" alt="zzz" />
+        <div class="chats-message__content">
+          <span class="message__author">Snoozer</span>
+          <div class="message__text">
+            <span class="message__bubble">I want to sleep more</span>
+            <span class="message__time">11:00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chats-message chats-message__me">
+        <div class="chats-message__content">
+          <div class="message__text">
+            <span class="message__time">11:04</span>
+            <span class="message__bubble">No!!! wake up!! </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chats-message">
+        <img src="img/zzz.PNG" alt="zzz" />
+        <div class="chats-message__content">
+          <span class="message__author">Snoozer</span>
+          <div class="message__text">
+            <span class="message__bubble">ZZzzz...</span>
+            <span class="message__time">11:30</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__colum">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__colum">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
     <script
       src="https://kit.fontawesome.com/d5bac99a07.js"
       crossorigin="anonymous"

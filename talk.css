@@ -1,0 +1,121 @@
+.chats__main {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chats__timeset {
+    margin: 30px;
+    padding: 10px;
+    background-color: sandybrown;
+    border-radius: 30px;
+}
+
+.chats__timeset  h5 {
+    text-align: center;
+    color: snow;
+    font-size: 15px;
+}
+
+.chats-message {
+    width: 100%;
+    display: flex;
+}
+
+.chats-message img {
+    height: 70px;
+    width: 70px;
+    border-radius: 25px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.message__author {
+    display: block;
+    opacity: 0.7;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.message__text {
+    display: flex;
+    align-items: flex-end;
+}
+
+.message__bubble {
+    background-color: snow;
+    padding: 8px 15px;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    margin-right: 5px;
+}
+
+.message__time {
+    color: var(--small-color);
+    font-size: 15px;
+}
+
+.chats-message__me {
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.chats-message__me .message__bubble {
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    background-color: rgba(238, 224, 26, 0.959);
+    margin-left: 5px;
+}
+
+.reply {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    padding: 5px 25px;
+    align-items: center;
+}
+
+.reply .reply__colum:first-child{
+    width: 10%;
+}
+
+.reply .reply__colum:last-child {
+    width: 90%;
+    position: relative;
+}
+
+
+.reply input {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid var(--line-color);
+    border-radius: 20px;
+}
+
+.reply__colum:last-child > i,
+.reply button {
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+
+.reply__colum:last-child > i {
+    right: 40px;
+    top: 12px;
+}
+
+.reply__colum button {
+    background-color: #feb96c;
+    ;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 7px;
+    right: 5px;
+}

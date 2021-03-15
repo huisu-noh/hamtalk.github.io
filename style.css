@@ -5,7 +5,7 @@
 @import "friends.css";
 @import "setting.css";
 @import "talklist.css";
-
+@import "talk.css";
 
 * {
     box-sizing: border-box;

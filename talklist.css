@@ -1,0 +1,35 @@
+.avthor {
+    position: relative;
+    border-top: 2px dotted var(--line-color);
+    padding-top: 15px;
+}
+
+.avthor a {
+    text-decoration: none;
+    color: black;
+}
+
+.chats-list {
+    margin-top: 20px;
+}
+
+.chats-list h5 {
+    margin-top: 10px;
+}
+
+.chats__aram {
+    margin-top: 20px;
+    position: absolute;
+    right: 40px;
+}
+
+.chats__bell {
+    margin: 10px 0 0 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 3px;
+}
+

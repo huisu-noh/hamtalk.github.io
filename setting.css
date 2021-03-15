@@ -1,0 +1,15 @@
+.setting-list__item {
+    margin: 0 20px;
+}
+
+
+.setting-list__item {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--line-color);
+    padding: 20px;
+}
+
+.setting-list__item i {
+    padding-right: 20px;
+}
